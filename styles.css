@@ -1,8 +1,8 @@
 body {
     background: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 h1 {
-    color: rgb(212, 191, 223);
+    color: rgb(217, 193, 227);
     text-align: center;
 }
