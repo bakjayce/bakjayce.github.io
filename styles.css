@@ -5,17 +5,17 @@ body {
 }
 .about {
     color: rgb(193, 210, 227);
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 .skills {
     color: rgb(227, 193, 193);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', serif;
 }
 .projects {
     color: rgb(208, 227, 193);
-    font-family: papyrus, fantasy;
+    font-family: 'Papyrus', fantasy;
 }
 .contact {
     color: rgb(227, 216, 193);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Wingdings', fantasy;
 }
