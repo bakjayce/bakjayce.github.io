@@ -1,21 +1,21 @@
 body {
     background: black;
-    font-family: "Times New Roman", Times, serif;
+    font-family: monospace;
     color: rgb(255, 255, 255); 
 }
 .about {
     color: rgb(255, 255, 255);
-    font-family: "Times New Roman", Times, serif;
+    font-family: monospace;
 }
 .skills {
     color: rgb(255, 255, 255);
-    font-family: "Times New Roman", Times, serif;
+    font-family: monospace;
 }
 .projects {
     color: rgb(255, 255, 255);
-    font-family: "Times New Roman", Times, serif;
+    font-family: monospace;
 }
 .contact {
     color: rgb(255, 255, 255);
-    font-family: "Times New Roman", Times, serif;
+    font-family: monospace;
 }
