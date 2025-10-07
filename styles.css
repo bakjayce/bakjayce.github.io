@@ -1,21 +1,21 @@
 body {
     background: black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: rgb(217, 193, 227); 
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255); 
 }
 .about {
-    color: rgb(193, 210, 227);
-    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
 }
 .skills {
-    color: rgb(227, 193, 193);
-    font-family: 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
 }
 .projects {
-    color: rgb(208, 227, 193);
-    font-family: 'Papyrus', fantasy;
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
 }
 .contact {
-    color: rgb(227, 216, 193);
-    font-family: 'Wingdings', fantasy;
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
 }
