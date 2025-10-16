@@ -24,3 +24,7 @@ body {
     color: rgb(255, 255, 255);
     font-family: monospace;
 }
+img {
+    width: 1000px;
+    height: auto;
+}
