@@ -28,3 +28,11 @@ img {
     width: 1000px;
     height: auto;
 }
+.project img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
+}
