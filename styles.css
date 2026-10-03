@@ -1,14 +1,28 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary-color: #E1E0E2;
+        --secondary-color: #C2C0C4;
+        --text-color: #120A18;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #0A0210;
+        --secondary-color: #120A18;
+        --text-color: #E1E0E2;
+    }
+}
 body {
-    background: black;
+    background: var(--primary-color);
     font-family: monospace;
-    color: #efe0fd; 
+    color: var(--text-color); 
 }
 .about {
-    color: #efe0fd;
+    color: var(--text-color);
     font-family: monospace;
 }
 .skills {
-    color: #efe0fd;
+    color: var(--text-color);
     font-family: monospace;
 }
 .projects { 
@@ -18,23 +32,22 @@ body {
     width: 55%;
     margin: 10px;
     padding: 20px 10px;
-    background: #efe0fd; 
+    background: var(--secondary-color); 
     border-radius: 10%;
-    color: black
+    color: var(--text-color);
 }
 .contact {
-    color: #efe0fd;
+    color: var(--text-color);
     font-family: monospace;
 }
 img {
     width: 1000px;
     height: auto;
 }
-.project img{
+.project img {
     width: 300px;
     height: auto;
     margin: 10px;
-    border: 2px solid #b969ff;
     display: block;
     margin: auto;
 }
