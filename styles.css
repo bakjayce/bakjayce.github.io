@@ -68,7 +68,7 @@ h1, h2, h3 {
         width: 95%;
     }
 
-    @media screen and (min-width: 750px) {
+    @media screen and (min-width: 1000px) {
         width: 28.333%;
     }
 }
