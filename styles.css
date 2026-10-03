@@ -1,53 +1,71 @@
-@media (prefers-color-scheme: light) {
-    :root {
-        --primary-color: #E1E0E2;
-        --secondary-color: #C2C0C4;
-        --text-color: #120A18;
+:root {
+    @media (prefers-color-scheme: light) {
+            --primary-color: #E1E0E2;
+            --secondary-color: #D2D0D3;
+            --text-color: #120A18;
     }
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --primary-color: #0A0210;
-        --secondary-color: #120A18;
-        --text-color: #E1E0E2;
+
+    @media (prefers-color-scheme: dark) {
+            --primary-color: #0A0210;
+            --secondary-color: #120A18;
+            --text-color: #E1E0E2;
     }
+
+    --body-text: Trebuchet MS;
+    --header-text: monospace;
 }
+
 body {
     background: var(--primary-color);
-    font-family: monospace;
+    font-family: var(--body-text);
     color: var(--text-color); 
 }
-.about {
+
+h1, h2, h3 {
+    font-family: var(--header-text);
     color: var(--text-color);
-    font-family: monospace;
 }
-.skills {
-    color: var(--text-color);
-    font-family: monospace;
+
+.about, .skills, .contact {
+    :not(h1,h2,h3) {
+        margin-left: 1em;
+    }
 }
-.projects { 
-    display:flex; flex-wrap:wrap; 
+
+.projects_grid {
+    display: flex; 
+    flex-wrap: wrap; 
 }
+
 .project {
-    width: 55%;
-    margin: 10px;
-    padding: 20px 10px;
+    width: 45%;
+    margin: 2.5%;
     background: var(--secondary-color); 
-    border-radius: 10%;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
     color: var(--text-color);
+    img {
+        width: 75%;
+        height: auto;
+        margin-left: 12.5%
+    }
+    h3, p {
+        text-align: center;
+    }
+    h3::before {
+        content: "☞ ";
+    }
 }
+
 .contact {
     color: var(--text-color);
     font-family: monospace;
 }
-img {
-    width: 1000px;
-    height: auto;
-}
-.project img {
+
+/* .project img {
     width: 300px;
     height: auto;
     margin: 10px;
     display: block;
     margin: auto;
-}
+} */
