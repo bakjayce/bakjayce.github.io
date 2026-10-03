@@ -3,12 +3,14 @@
             --primary-color: #E1E0E2;
             --secondary-color: #D2D0D3;
             --text-color: #120A18;
+            --link-color: #561992;
     }
 
     @media (prefers-color-scheme: dark) {
             --primary-color: #0A0210;
             --secondary-color: #120A18;
             --text-color: #E1E0E2;
+            --link-color: #be99e2;
     }
 
     --body-text: Trebuchet MS;
@@ -19,6 +21,7 @@ body {
     background: var(--primary-color);
     font-family: var(--body-text);
     color: var(--text-color); 
+    font-size: 15px;
 }
 
 h1, h2, h3 {
@@ -26,9 +29,15 @@ h1, h2, h3 {
     color: var(--text-color);
 }
 
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
 .about, .skills, .contact {
     :not(h1,h2,h3) {
         margin-left: 1em;
+        font-family: var(--body-text);
     }
     a {
         margin-left: 0;
@@ -54,14 +63,21 @@ h1, h2, h3 {
         margin-left: 12.5%
     }
 
-    h3, p {
+    h3 {
+        color: var(--link-color);
         text-align: center;
         text-decoration: none;
         margin: 5%;
     }
 
-    h3::before {
-        content: "☞ ";
+    p {
+        text-align: center;
+        text-decoration: none;
+        margin: 5%;
+    }
+
+    li {
+        margin-right: 10%
     }
 
     @media screen and (max-width: 500px) {
