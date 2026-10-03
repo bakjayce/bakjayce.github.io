@@ -29,7 +29,12 @@ h1, h2, h3 {
     color: var(--text-color);
 }
 
-a {
+a:link {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:visited {
     color: var(--link-color);
     text-decoration: none;
 }
